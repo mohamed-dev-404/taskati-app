@@ -32,9 +32,9 @@ class AppTextFormField extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
         boxShadow: [
           BoxShadow(
-            color: AppColors.secondaryColor.withValues(alpha: .1),
+            color: AppColors.secondaryColor.withValues(alpha: .3),
             blurRadius: 6,
-            offset: const Offset(0, 2),
+            offset: const Offset(0, 4),
           ),
         ],
       ),

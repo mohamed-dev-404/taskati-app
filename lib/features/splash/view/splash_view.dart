@@ -3,7 +3,7 @@ import 'package:gap/gap.dart';
 import 'package:lottie/lottie.dart';
 import 'package:taskati_app/core/functions/navigations.dart';
 import 'package:taskati_app/core/utils/assets/app_assets.dart';
-import 'package:taskati_app/features/complete_profile/complete_profile.dart';
+import 'package:taskati_app/features/complete_profile/views/complete_profile_view.dart';
 import 'package:taskati_app/features/splash/widgets/animated_cross_fade_logo.dart';
 
 class SplashView extends StatefulWidget {
@@ -49,7 +49,7 @@ class _SplashViewState extends State<SplashView> {
       ),
       () {
         if (!mounted) return;
-        context.pushReplacement(const CompleteProfile());
+        context.pushReplacement(const CompleteProfileView());
       },
     );
   }
