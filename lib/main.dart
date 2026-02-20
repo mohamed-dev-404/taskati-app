@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:taskati_app/core/utils/assets/app_assets.dart';
 import 'package:taskati_app/core/utils/colors/app_colors.dart';
 import 'package:taskati_app/core/utils/theme/app_themes.dart';
+import 'package:taskati_app/features/splash/view/splash_view.dart';
 
 void main() {
   runApp(const Taskati());
@@ -38,7 +39,7 @@ class Taskati extends StatelessWidget {
           ),
         );
       },
-      home: const Scaffold(), //SplashScreen(),
+      home: const SplashView(),
     );
   }
 }
